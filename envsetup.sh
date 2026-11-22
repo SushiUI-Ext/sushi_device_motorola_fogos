@@ -4,16 +4,16 @@
 # Copyright (c) 2026 SushiUI Extended 
 # All rights reserved
 
-DEVICE="bangkk"
+DEVICE="fogos_variant1"
 VERSION="1.1.2"
 VENDOR="motorola"
 AB="true"
-RESOLUTION="1080x2400"
+RESOLUTION="720x1600"
 SOC="QTI SM6375"
 ARCHITECTURES="aarch64,armeabi-v7a,armeabi"
 LATEST_SDK="35"
-FIRST_SDK="33"
-BUILDNO="V1TCS35H.88-16-9"
+FIRST_SDK="34"
+BUILDNO="V1UGS35H.75-14-6-2-4"
 BUILD_SDK="35"
 MIN_SDK="36"
 VERSION_CODE="10102"
@@ -54,5 +54,3 @@ smake() {
 
     command make "${MAKEFLAGS[@]}" "$@"
 }
-
-

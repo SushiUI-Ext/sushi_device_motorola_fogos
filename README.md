@@ -1,13 +1,9 @@
-# SushiUI tree for Motorola Moto G84 5G (bangkk)
+# SushiUI tree for Motorola Moto G34 5G (fogos)
 (for SushiUI Extended)
 
 Configurations for this SushiUIext device written in Makefile and Shell.
 
-
-
-![bangkk](https://raw.githubusercontent.com/SushiUI-Ext/sushi_device_motorola_bangkk/refs/heads/main/bangkk.png)
-
-
+![fogos](https://raw.githubusercontent.com/SushiUI-Ext/sushi_device_motorola_fogos/refs/heads/main/fogos.png)
 
 Copyright © 2023 Motorola Mobility LLC. All rights reserved.
 
@@ -24,7 +20,7 @@ If you are installing SushiUI on your device,
 * BOOM! goes the dynamite
 ```
 
-## Building on bangkk
+## Building on fogos
 ```bash
 . ./envsetup.sh
 smake
@@ -37,6 +33,8 @@ smake OFFICIAL=1 MAINTAINER=name
 ```
 
 `MAINTAINER` defaults to the output of `whoami`. `OFFICIAL` defaults to `0`.
+
+This device tree is untested on real hardware.
 
 # Maintainers of this device
 
