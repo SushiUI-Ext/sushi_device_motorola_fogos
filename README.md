@@ -36,6 +36,7 @@ smake OFFICIAL=1 MAINTAINER=name
 
 This device tree is untested on real hardware.
 
+If you want to see [Moto G45 5G](https://m.gsmarena.com/motorola_moto_g45-13267.php) tree, see [sushi_device_motorola_fogos2](https://github.com/SushiUI-Ext/sushi_device_motorola_fogos2)
 # Maintainers of this device
 
 [rebangkkuser](https://github.com/rebangkkuser)
