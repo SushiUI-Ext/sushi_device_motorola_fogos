@@ -98,7 +98,7 @@ sushi-prepare: check-env
 sushi-compact: sushi-prepare
 	$(Q)source ./$(ENVSETUP)
 	$(Q)mkdir -p "$(OUTPUT_DIR)"
-	$(Q)ZIP_NAME="$(PROJECT)_$${VERSION}_$${DEVICE}.zip"
+	$(Q)ZIP_NAME="$(PROJECT)_$${VERSION}_$${DEVICE}_$${VARIANT}.zip"
 	$(Q)rm -f "$(OUTPUT_DIR)/$$ZIP_NAME"
 	$(Q)cd "$(NZOUTPUT_DIR)"
 	$(Q)zip -r "../output/$$ZIP_NAME" . >/dev/null

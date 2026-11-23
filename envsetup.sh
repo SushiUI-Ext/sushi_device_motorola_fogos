@@ -7,6 +7,7 @@
 DEVICE="fogos_variant1"
 VERSION="1.1.2"
 VENDOR="motorola"
+VARIANT="variant1"
 AB="true"
 RESOLUTION="720x1600"
 SOC="QTI SM6375"
