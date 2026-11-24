@@ -2,7 +2,7 @@ AGENTS.md
 
 Project overview
 
-This repository contains the SushiUI Extended device configuration for the Motorola Moto G84 5G (codename: "bangkk").
+This repository contains the SushiUI Extended device configuration for the Motorola Moto G34 5G (codename: "fogos").
 
 The project uses Makefiles and shell scripts for device configuration and builds.
 
@@ -10,7 +10,7 @@ Read "README.md" and "envsetup.sh" before modifying build behavior.
 
 Development rules
 
-- Keep changes focused on the Motorola Moto G84 5G ("bangkk").
+- Keep changes focused on the Motorola Moto G34 5G ("fogos").
 - Preserve existing project structure and naming conventions.
 - Follow existing Bash and Makefile conventions.
 - Quote shell variables and avoid unsafe command execution.
@@ -20,10 +20,11 @@ Development rules
 
 Device configuration
 
-- Device: Motorola Moto G84 5G
-- Codename: "bangkk"
+- Device: Motorola Moto G34 5G
+- Codename: "fogos"
 - Vendor: "motorola"
 - SoC: Qualcomm SM6375
+- Variant: "variant1" (envsetup DEVICE="fogos_variant1")
 
 Never guess hardware specifications, partition layouts, kernel settings or firmware versions.
 
